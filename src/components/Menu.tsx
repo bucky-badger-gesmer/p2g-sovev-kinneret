@@ -13,16 +13,10 @@ import {
 import {
   globeOutline,
   globeSharp,
-  heartOutline,
-  heartSharp,
   homeOutline,
   homeSharp,
   informationCircleOutline,
   informationCircleSharp,
-  mailOutline,
-  mailSharp,
-  paperPlaneOutline,
-  paperPlaneSharp,
 } from "ionicons/icons";
 import { useLocation } from "react-router-dom";
 import "./Menu.css";
@@ -37,19 +31,19 @@ interface AppPage {
 const appPages: AppPage[] = [
   {
     title: "Home",
-    url: "/folder/Inbox",
+    url: "/",
     iosIcon: homeOutline,
     mdIcon: homeSharp,
   },
   {
     title: "About",
-    url: "/folder/Outbox",
+    url: "/about",
     iosIcon: informationCircleOutline,
     mdIcon: informationCircleSharp,
   },
   {
     title: "Contact",
-    url: "/folder/Favorites",
+    url: "/contact",
     iosIcon: globeOutline,
     mdIcon: globeSharp,
   },
