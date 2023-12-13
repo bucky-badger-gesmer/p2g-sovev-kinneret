@@ -1,0 +1,72 @@
+{
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/.git/": true,
+    "**/lib/**": true,
+    "**/.nyc_output/**": true,
+    "**/functions/*.log": true,
+    "out/": true,
+    "typings/": true,
+    ".firebase/": true,
+    "www/": true,
+    ".angular/": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": true,
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": true,
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "json.format.enable": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[html][json][typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": "explicit",
+      "source.fixAll.eslint": "explicit"
+    }
+  }
+}
