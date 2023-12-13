@@ -11,8 +11,14 @@ import {
 } from "@ionic/react";
 
 import {
+  globeOutline,
+  globeSharp,
   heartOutline,
   heartSharp,
+  homeOutline,
+  homeSharp,
+  informationCircleOutline,
+  informationCircleSharp,
   mailOutline,
   mailSharp,
   paperPlaneOutline,
@@ -32,20 +38,20 @@ const appPages: AppPage[] = [
   {
     title: "Home",
     url: "/folder/Inbox",
-    iosIcon: mailOutline,
-    mdIcon: mailSharp,
+    iosIcon: homeOutline,
+    mdIcon: homeSharp,
   },
   {
     title: "About",
     url: "/folder/Outbox",
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp,
+    iosIcon: informationCircleOutline,
+    mdIcon: informationCircleSharp,
   },
   {
     title: "Contact",
     url: "/folder/Favorites",
-    iosIcon: heartOutline,
-    mdIcon: heartSharp,
+    iosIcon: globeOutline,
+    mdIcon: globeSharp,
   },
 ];
 
